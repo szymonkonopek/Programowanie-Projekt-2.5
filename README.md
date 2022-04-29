@@ -9,8 +9,8 @@
 |rekomendacja autora|span.user-post__author-recomendation > em|recommendation||
 |liczba gwiazdek|span.user-post__score-count|stars||
 |treść opinii|div.user-post__text|content||
-|lista zalet|div.[class$=positives] ~ div.review-feature__item|pros||
-|lista wad|div.[class$=negatives] ~ div.review-feature__item|cons||
+|lista zalet|div[class$=positives] ~ div.review-feature__item|pros||
+|lista wad|div[class$=negatives] ~ div.review-feature__item|cons||
 |dla ilu osób przydatna|button.vote-yes > span|useful||
 |dla ilu osób nieprzydatna|button.vote-no > span|useless||
 |data wystawiania opinii|span.user-post__published > time:nth-child(1)\["datetime"\]|published||
