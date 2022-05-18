@@ -33,7 +33,7 @@ while(url):
     response = requests.get(url)
     page = BeautifulSoup(response.text,"html.parser")
 
-    opinions = page.select("div.js_product-review")
+    opinions = page.select("div.js_product-review") #js prod = pojedyncza opinia
     for opinion in opinions:
         single_opinion = {
             key:get_item(opinion, *value)
@@ -41,6 +41,7 @@ while(url):
         }
         single_opinion["opinion_id"] = opinion["data-entry-id"]
         all_opinions.append(single_opinion)
+
 
     try:
         url = "https://www.ceneo.pl"+page.select_one("a.pagination__next")["href"]
