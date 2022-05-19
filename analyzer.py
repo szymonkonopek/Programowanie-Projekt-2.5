@@ -10,7 +10,8 @@ product_id=input("Enter an id from ceneo: ")
 opinions = pd.read_json(f"opinions/{product_id}.json")
 opinions["stars"] = opinions["stars"].map(lambda x: float(x.split("/")[0].replace(",", ".")))
 
-opinions_count = len(opinions)
+
+opinions_count = len(opinions) 
 pros_count = opinions["pros"].map(bool).sum()
 cons_count = opinions["cons"].map(bool).sum()
 average_score = opinions["stars"].mean().round(2)
