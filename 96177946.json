@@ -1,0 +1,28 @@
+[
+    {
+        "author": "a...s",
+        "recommendation": "Polecam",
+        "stars": "5/5",
+        "content": "W 100% spełnił moje oczekiwania zarówno pod względem wyglądu wizualnego jak i funkcjonalności użytkowania.",
+        "useful": "0",
+        "useless": "0",
+        "published": "2021-09-26 21:53:51",
+        "purchased": "2021-09-20 20:21:57",
+        "pros": [],
+        "cons": [],
+        "opinion_id": "15000979"
+    },
+    {
+        "author": "Alicja",
+        "recommendation": "Polecam",
+        "stars": "5/5",
+        "content": "Wykonany dobrze, nie zacina się tak jak ekspresy Krups.",
+        "useful": "1",
+        "useless": "0",
+        "published": "2020-12-27 21:28:52",
+        "purchased": "2020-12-13 20:49:43",
+        "pros": [],
+        "cons": [],
+        "opinion_id": "13657515"
+    }
+]
