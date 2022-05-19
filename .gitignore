@@ -130,7 +130,3 @@ dmypy.json
 
 # IDE
 .vscode
-
-# project
-opinions/*.*
-plots/*.*
