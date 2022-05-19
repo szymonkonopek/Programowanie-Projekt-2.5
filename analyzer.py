@@ -15,6 +15,7 @@ pros_count = opinions["pros"].map(bool).sum()
 cons_count = opinions["cons"].map(bool).sum()
 average_score = opinions["stars"].mean().round(2)
 
+
 recommendation = opinions["recommendation"].value_counts(dropna=False).sort_index().reindex(["Nie polecam", "Polecam", None], fill_value=0)
 recommendation.plot.pie(
     label="",
